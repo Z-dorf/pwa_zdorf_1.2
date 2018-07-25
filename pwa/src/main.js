@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 
 export const globalStore = new Vue({
   data: {
-    baseUrl: 'http://localhost/pwa_zdorf_1.0/pwa/'
+    baseUrl: 'http://localhost/pwa_zdorf_1.2/pwa/'
 
     // baseUrl: 'http://localhost:8080/'
   }
