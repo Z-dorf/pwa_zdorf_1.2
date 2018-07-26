@@ -43,6 +43,10 @@ export default {
 	animation: Gradient 15s ease infinite;
 	background-repeat: no-repeat;
 }
+.logo{
+	height: 10%;
+	width: 10%;
+}
 
 @-webkit-keyframes Gradient {
 	0% {
