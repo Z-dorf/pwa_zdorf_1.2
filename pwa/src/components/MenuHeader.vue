@@ -35,6 +35,11 @@ export default {
                 url: '/a_propos',
                 name: 'A propos'
             },
+                        {
+                url: '/competences',
+                name: 'Competences'
+            },
+
 
         ]
     }

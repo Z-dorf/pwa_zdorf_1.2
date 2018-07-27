@@ -3,7 +3,7 @@
         <div v-for="(projet, index) in projets" v-bind:key="index">
             <h2>{{projet.title}}</h2>
             <p>{{projet.description}}</p>
-            <a :href="projet.github">Voir sur github</a>
+            <a :href="projet.github">Voir démo</a>
         </div>
     </div>
 </template>
@@ -12,19 +12,20 @@
 
 import {globalStore} from '../main.js'
 
+
 export default {
   data () {
     return {
        projets : [
             {
-                title: 'Projet1',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                github: 'https://github.com/Z-dorf/'
+                title: '',
+                description: '',
+                github: ''
             },
             {
-                title: 'Projet2',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                github: 'https://github.com/Z-dorf/'
+                title: '',
+                description: '',
+                github: ''
             },
         ],
         baseUrl: globalStore.baseUrl
