@@ -4,7 +4,7 @@
     <h1>{{ msg }}</h1>
     <p>"Work in Progress..."</p>
   </div>
-    <div>
+    <!-- <div>
       <figure>
         <router-link class="desc" to="/About"><img class="logo" src="static/media/icon_bar/about.png" alt="About" ><figcaption>About</figcaption></router-link>
       </figure>
@@ -24,7 +24,7 @@
           <router-link class="desc" to="/Projets"><img class="logo" src="/static/media/icon_bar/projects.png" alt="Projects"><figcaption>Projects</figcaption></router-link>
       </figure>
 
-    </div>
+    </div> -->
   </div>
 </template>
 

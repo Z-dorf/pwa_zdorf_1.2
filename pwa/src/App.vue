@@ -43,6 +43,10 @@ export default {
 	animation: Gradient 15s ease infinite;
 	background-repeat: no-repeat;
 }
+.contact_logo{
+	height: 35%;
+	width: 35%;
+}
 .logo{
 	height: 10%;
 	width: 10%;
