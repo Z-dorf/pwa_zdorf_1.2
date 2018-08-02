@@ -3,9 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vuetify from 'vuetify'
+// import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
+// import css from 'vuetify.min.css';
 
 Vue.config.productionTip = false
 
+Vue.use(Vuetify)
 
 export const globalStore = new Vue({
   data: {

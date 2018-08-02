@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Experiences from '@/components/Experiences'
 import Home from '@/components/Home'
 import Projets from '@/components/Projets'
 import Contact from '@/components/Contact'
@@ -20,12 +19,6 @@ export default new Router({
     },
     
     {
-      path: '/experiences',
-      name: 'Experiences',
-      component: Experiences
-    },
-
-    {
       path: '/competences',
       name: 'Competences',
       component: Competences
@@ -35,6 +28,12 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+
+    {
+      path: '/about',
+      name: 'About',
+      component: About
     },
 
     {

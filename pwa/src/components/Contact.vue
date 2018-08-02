@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-form" class="contact-form">
+  <div id="contact_form" class="contact-form">
     <h1 class="contact-form_title">Contact Form</h1>
     <p> {{msg}} </p>
     <div class="separator"></div>

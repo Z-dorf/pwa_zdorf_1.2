@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li v-for="(menuElem, index) in menuElements" v-bind:key="index"> <!-- index est le parametre, la key à bind, si je remets menuElem vu qu'il est en dessous, ça va duplicate -->
+            <li class="test_hover" v-for="(menuElem, index) in menuElements" v-bind:key="index" > <!-- index est le parametre, la key à bind, si je remets menuElem vu qu'il est en dessous, ça va duplicate -->
                 <router-link :to="menuElem.url">{{menuElem.name}}</router-link>
             </li>
         </ul>
@@ -19,10 +19,6 @@ export default {
                 name: 'Home'
             },
             {
-                url: '/experiences',
-                name: 'Experiences'
-            },
-            {
                 url: '/projets',
                 name: 'Projets'
             },
@@ -32,10 +28,10 @@ export default {
                 name: 'Contact'
             },
             {
-                url: '/a_propos',
-                name: 'A propos'
+                url: '/about',
+                name: 'About'
             },
-                        {
+            {
                 url: '/competences',
                 name: 'Competences'
             },
@@ -48,17 +44,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    ul {
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        max-width:1300px;
-        margin: 0 auto;
-    }
+ul {
+    position: absolute;
+	top : auto;
+	bottom: 5%;
+ 	display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width:1300px;
+    margin: 0 auto;       
+}
 
-    @media screen and (max-width: 640px) {
-        ul {
-            display: block;
-        }
-    }
+    // @media screen and (max-width: 640px) {
+    //     ul {
+    //         display: block;
+    //     }
+    // }
 </style>
