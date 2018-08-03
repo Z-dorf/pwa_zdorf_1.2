@@ -3,6 +3,7 @@
     <div>
     <h1>{{ msg }}</h1>
     <p>"Work in Progress..."</p>
+    <p> This is my introduction </p>
   </div>
     <!-- <div>
       <figure>

@@ -1,3 +1,5 @@
+// Here i'm importing all of my vue files
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
@@ -7,6 +9,7 @@ import Competences from '@/components/Competences'
 import About from '@/components/About'
 
 
+// My vue root
 
 Vue.use(Router)
 

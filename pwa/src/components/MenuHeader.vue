@@ -1,11 +1,14 @@
 <template>
     <nav>
         <ul>
+            <li class=logo_sz>
+                </li>
             <li class="test_hover" v-for="(menuElem, index) in menuElements" v-bind:key="index" > <!-- index est le parametre, la key à bind, si je remets menuElem vu qu'il est en dessous, ça va duplicate -->
                 <router-link :to="menuElem.url">{{menuElem.name}}</router-link>
             </li>
         </ul>
     </nav>
+
 </template>
 
 <script>

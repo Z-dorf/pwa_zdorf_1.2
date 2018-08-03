@@ -3,7 +3,7 @@
         <div v-for="(projet, index) in projets" v-bind:key="index">
             <h2>{{projet.title}}</h2>
             <p>{{projet.description}}</p>
-            <a :href="projet.github">Voir démo</a>
+            <a :href="projet.github" target="_blank">Voir démo</a>
         </div>
     </div>
 </template>

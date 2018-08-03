@@ -1,5 +1,11 @@
 <template>
-    <h1>Hellowwww ! </h1>
+ <div id="about">
+    <div>
+      <h1>Hellowwww ! </h1>
+      <p>"Work in Progress..."</p>
+      <p> This is my introduction </p>
+    </div>
+  </div>
 </template>
 
 <script>

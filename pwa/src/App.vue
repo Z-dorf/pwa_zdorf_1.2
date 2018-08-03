@@ -28,6 +28,9 @@ export default {
     color: #2c3e50;
     margin-top: 60px;
 	}
+	#about{
+		background-color: #fff;
+	}
 	#home{
 		background-color: #fff;
 	}
@@ -37,11 +40,6 @@ export default {
 	#contact_form{
 		background-color: #fff;
 	}
-
-/* ul{
-
-} */
-
 
   body {
 	width: 100%;
@@ -63,12 +61,14 @@ export default {
 	height: 10%;
 	width: 10%;
 }
+/* .logo_sz{
+	background: 
+} */
 .router-link-active:hover {
 	color: #FFD500;
 }
-/* isActiv {
-		color: #FFD500;
-} */
+
+
 
 /* @-webkit-keyframes Gradient {
 	0% {
